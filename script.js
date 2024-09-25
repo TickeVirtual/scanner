@@ -17,11 +17,11 @@ domReady(function (){
     
     function onScanSuccess(decodeText, decodeResult) {
         
-        alert("El codigo es: " + decodeText, decodeResult);
+        alert("you Qr is: " + decodeText, decodeResult);
     }
 
     let htmlscanner = new Html5QrcodeScanner (
-        "Mi lector de QR",
+        "my-qr-reading",
         {
             fps:10, qrbos:250 
         }
