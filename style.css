@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+}
+
+#main-page {
+    background-color: #D5E1EF;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#qr-container {
+    width: 250px;
+    border-radius: 4%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+#qr-container img {
+    height: 250px;
+    width: 250px;
+    border-radius: 4%;
+}
+
+#qr-container h3 {
+    padding: 15px 15px;
+}
+
+#qr-container p {
+    font-size: 12px;
+    padding: 0px 15px 15px 18px;
+}
