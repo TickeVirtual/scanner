@@ -1,41 +1,82 @@
-* {
+body {
+    display: flex;
+    justify-content: center;
     margin: 0;
     padding: 0;
-    font-family: "Outfit", sans-serif;
-}
-
-#main-page {
-    background-color: #D5E1EF;
-    width: 100vw;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#qr-container {
-    width: 250px;
-    border-radius: 4%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    box-sizing: border-box;
     text-align: center;
-    padding: 10px;
+    background: rgba(5, 243, 227, 0.66);
+   
+   
 }
 
-#qr-container img {
-    height: 250px;
-    width: 250px;
-    border-radius: 4%;
+.container {
+
+    width: 100%;
+    max-width: 500px;
+    margin: 5px;
 }
 
-#qr-container h3 {
-    padding: 15px 15px;
+.container h1 {
+
+    color: #ffffff;
+
 }
 
-#qr-container p {
-    font-size: 12px;
-    padding: 0px 15px 15px 18px;
+.section {
+
+    background-color: #ffffff;
+    padding: 50px 30px;
+    border: 1.5px solid #b2b2b2;
+    border-radius: 0.25em;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+}
+
+#my-qr-reader {
+
+    padding: 20px !important;
+    border: 1.5px solid #b2b2b2  !important;
+    border-radius: 8px;
+
+}
+
+ 
+#my-qr-reader img[alt="Info icon"] {
+    display: none;
+}
+ 
+ 
+#my-qr-reader img[alt="Camera based scan"] {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+button {
+
+    padding:10px 20px;
+    border: 1px solid #b2b2b2;
+    outline: none;
+    border-radius: 0.25em;
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: #008000AD;
+    transition: 0.3s background-color;
+}
+button:hover {
+    background-color: #008000;
+}
+ 
+#html5-qrcode-anchor-scan-type-change {
+    text-decoration: none !important;
+    color: #1d9bf0;
+}
+ 
+video {
+    width: 100% !important;
+    border: 1px solid #b2b2b2 !important;
+    border-radius: 0.25em;
 }
