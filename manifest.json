@@ -8,11 +8,21 @@
   "icons": [
     {
       "src": "icono1.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "icono1.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "icono1.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icons/icon-512x512.png",
+      "src": "icono1.png",
       "sizes": "512x512",
       "type": "image/png"
     }
